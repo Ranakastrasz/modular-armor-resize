@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0
+Date: 9. 23. 2019
+  
+    - Modular armor equipment grid changed to 4x6, room for 6 modules. (up from 4). Now allows pocket fusion with 2 modules.
+    - Power armor 1 equipment grid changed to 6x8, room for 12 modules (up from 9). Now allows pocket fusion with multiple exosuits.
+    
+  9 Future:
+    - Modify module sizes to make 2x3 or 3x3 things fit into 2x2 or 2x4 spaces instead.
