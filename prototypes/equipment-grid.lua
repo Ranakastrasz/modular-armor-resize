@@ -1,12 +1,16 @@
 -- replaces vanilla armor grid parameters.
 -- Overall low tier armor buff, despite less slots.
 -- Before: 
-	-- Modular armor 4 items, or 1 fusion and nothing else
-	-- Power armor 9 items, or 1 fusion/1 exo/3 other+batteries
-	-- Mk2 25 items
+    -- Modular armor 4 items, or 1 fusion and nothing else
+    -- Power armor 9 items, or 1 fusion/1 exo/3 other+batteries
+    -- Mk2 25 items
 -- Now: 
-	-- Modular armor 6 items, 1 fusion and 2 other (no fusion/exo)
-	-- Power armor 12 items, or 2 fusions/2 exo 
+    -- Modular armor 6 items, 1 fusion and 2 other (no fusion/exo)
+    -- Power armor 12 items, or 2 fusions/2 exo 
+-- 
+    -- Future design
+    -- Dynamically search all equipment grids, and for all with both being odd, shift smaller one up and bigger down. Prefer more height than width.
+
 
 data:extend(
 {
